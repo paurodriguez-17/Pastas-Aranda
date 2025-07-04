@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* goole font: font-family: "Raleway", sans-serif;*/
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+/* header*/
+.navegacion-principal {
+  background-color: #f5f0ea !important;
+  border-bottom: 2px solid #d2b48c;
+}
+
+.contenedor-navegacion {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.img-logo {
+  width: 70px;
+  height: auto;
+}
+
+.lista-navegacion {
+  gap: 20px;
+}
+
+.item-navegacion {
+  margin: 0 10px;
+}
+
+.enlace-navegacion {
+  color: #5c2a1d !important;
+  font-weight: 500;
+  transition: background 0.3s;
+  border-radius: 4px;
+}
+
+.enlace-navegacion:hover {
+  background-color: #e6d6c7;
+  padding: 6px 12px;
+}
+
+.boton-menu {
+  border: none;
+}
+
+/*main index*/
+.titulo-principal {
+  font-size: 40px;
+  color: #742f26;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.descripcion-principal {
+  font-size: 22px;
+  color: #5c2a1d;
+  margin-bottom: 30px;
+}
+
+.imagen-pastas {
+  width: 100%;
+  height: auto;
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.eslogan-principal {
+  font-style: italic;
+  font-size: 20px;
+  color: #7a3b2c;
+}
+
+/*footer*/
+.pie-pagina {
+  border-top: 2px solid #d2b48c;
+}
+
+.texto-footer {
+  color: #5c2a1d;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/*main contacto*/
+.titulo-contacto,
+.titulo-datos-contacto {
+  font-size: 32px;
+  color: #742f26;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.descripcion-contacto {
+  font-size: 20px;
+  color: #5c2a1d;
+  text-align: center;
+}
+
+.campo-contacto {
+  border: 1px solid #d2b48c;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.boton-enviar {
+  background-color: #742f26;
+  border: none;
+  font-weight: bold;
+}
+
+.boton-enviar:hover {
+  background-color: #5c1e15;
+}
+
+.lista-contacto {
+  list-style: none;
+  padding-left: 0;
+  font-size: 18px;
+  color: #5c2a1d;
+  line-height: 1.8;
+}
+
+/*main dondeEncontrarnos*/
+.titulo-ubicacion {
+  font-size: 34px;
+  color: #742f26;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.descripcion-ubicacion {
+  font-size: 20px;
+  color: #5c2a1d;
+  line-height: 1.6;
+}
+
+.eslogan-ubicacion {
+  font-style: italic;
+  font-size: 20px;
+  color: #7a3b2c;
+  margin-top: 20px;
+}
+
+.imagen-mapa {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*main productos*/
+.titulo-productos {
+  font-size: 34px;
+  color: #742f26;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.descripcion-productos {
+  font-size: 20px;
+  color: #5c2a1d;
+  line-height: 1.6;
+}
+
+.categoria-producto {
+  list-style: none;
+  padding-left: 0;
+  font-size: 18px;
+  color: #5c2a1d;
+  line-height: 2;
+}
+
+.item-producto::before {
+  content: "🍝 ";
+}
+
+.carrusel-productos {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.imagen-carrusel {
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/*main sobreNosotros*/
+.titulo-historia {
+  font-size: 34px;
+  color: #742f26;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.descripcion-historia {
+  font-size: 20px;
+  color: #5c2a1d;
+  line-height: 1.6;
+}
+
+.imagen-historia {
+  border-radius: 10px;
+  max-height: 500px;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.eslogan-historia {
+  font-style: italic;
+  font-size: 18px;
+  color: #7a3b2c;
+}
