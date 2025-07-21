@@ -1,0 +1,13 @@
+@use 'base/variables';
+@use 'base/mixins';
+@use 'base/extends';
+
+@use 'components/navbar';
+@use 'components/carrusel';
+@use 'components/footer';
+@use 'components/botones';
+@use 'components/animaciones';
+
+@use 'layout/header';
+@use 'layout/main';
+@use 'layout/media';

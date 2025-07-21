@@ -1,0 +1,18 @@
+{
+    "version": 3,
+    "sourceRoot": "",
+    "sources": [
+        "../scss/base/_extends.scss",
+        "../scss/base/_variables.scss",
+        "../scss/components/_navbar.scss",
+        "../scss/components/_carrusel.scss",
+        "../scss/base/_mixins.scss",
+        "../scss/components/_footer.scss",
+        "../scss/components/_botones.scss",
+        "../scss/layout/_main.scss",
+        "../scss/layout/_media.scss"
+    ],
+    "names": [],
+    "mappings": "AAEA;EACE,aCKkB;EDJlB,OCHkB;EDIlB;;;AEHF;EACE;EACA;;AAEA;EACE;EACA;;AAGF;EACE;EACA;;AAGF;EACE;EACA,KDNgB;;ACQhB;EACE;;AAEA;EACE,ODtBY;ECuBZ;EACA;EACA;EACA;;AAEA;EACE,kBD3BU;;ACiClB;EACE;;;ACnCJ;EACE;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;;ACTF;EDAF;IAaI;IACA;;;;AEnBN;EACE;EACA,kBJDkB;EIElB;;AAEA;EACE,OJNgB;EIOhB;EACA;EACA;;;ACNJ;EACE,kBLLkB;EKMlB;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;;;ACXJ;EACE;;AAEA;EAEE;EACA;EACA,eNCgB;;AMElB;EACE;EACA,ONdgB;EMehB,eNJgB;;AMOlB;EHLA;EACA;EACA;EGKE;EACA;EACA;EACA;EACA;;AHnBA;EGaF;IASI;;;AAIJ;EACE;EACA;EACA;EACA;;;AHhCA;EIDF;IACE",
+    "file": "styles.css"
+}

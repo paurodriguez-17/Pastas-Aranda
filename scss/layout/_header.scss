@@ -1,0 +1,28 @@
+@use '../base/variables' as *;
+@use '../base/mixins' as *;
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: $color-fondo-nav;
+  border-bottom: 2px solid $color-borde;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+
+  animation: aparecer-header 0.4s ease-in;
+  @include respond-to(sm) {
+    border-bottom-width: 1px;
+  }
+}
+
+@keyframes aparecer-header {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,40 @@
+@use '../base/variables' as *;
+@use '../base/mixins'    as *;
+@use '../base/extends'   as *;
+
+.seccion-principal {
+  padding: $espaciado-grande 0;
+
+  h1 {
+    @extend %titulo-general;
+    font-size: 2.5rem;
+    text-decoration: underline;
+    margin-bottom: $espaciado-medio;
+  }
+
+  .descripcion-principal {
+    font-size: 1.25rem;
+    color: $color-secundario;
+    margin-bottom: $espaciado-grande;
+  }
+
+  .imagen-pastas {
+    @include center-block;
+    max-width: 700px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    height: auto;
+
+    @include respond-to(md) {
+      max-width: 100%;
+    }
+  }
+
+  .eslogan-principal {
+    font-style: italic;
+    font-size: 1rem;
+    color: darken($color-acento, 20%);
+    text-align: center;
+  }
+}

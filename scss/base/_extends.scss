@@ -1,0 +1,7 @@
+@use '../base/variables' as *;
+
+%titulo-general {
+  font-family: $font-principal;
+  color: $color-primario;
+  text-align: center;
+}

@@ -1,0 +1,41 @@
+@use '../base/variables' as *;
+
+.navegacion-principal {
+  background-color: $color-fondo-nav;
+  border-bottom: 2px solid $color-borde;
+
+  .contenedor-navegacion {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .logo-sitio img {
+    width: 70px;
+    height: auto;
+  }
+
+  .lista-navegacion {
+    display: flex;
+    gap: $espaciado-medio;
+
+    .item-navegacion {
+      margin: 0 $espaciado-pequeño;
+
+      .enlace-navegacion {
+        color: $color-secundario;
+        font-weight: 500;
+        transition: background 0.3s;
+        border-radius: 4px;
+        padding: $espaciado-pequeño $espaciado-medio;
+
+        &:hover {
+          background-color: $color-acento;
+        }
+      }
+    }
+  }
+
+  .boton-menu {
+    border: none;
+  }
+}

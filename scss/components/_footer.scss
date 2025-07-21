@@ -1,0 +1,14 @@
+@use '../base/variables' as *;
+
+.pie-pagina {
+  border-top: 2px solid $color-borde;
+  background-color: $color-fondo-nav;
+  padding: $espaciado-medio 0;
+
+  .texto-footer {
+    color: $color-secundario;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+  }
+}

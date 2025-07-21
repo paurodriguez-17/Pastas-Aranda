@@ -1,0 +1,16 @@
+@use '../base/variables' as *;
+@use 'sass:color' as color;
+
+.boton-enviar {
+  background-color: $color-primario;
+  border: none;
+  font-weight: bold;
+  padding: $espaciado-pequeño $espaciado-grande;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s;
+
+  &:hover {
+    background-color: color.adjust($color-primario, $lightness: -10%);
+  }
+}

@@ -1,0 +1,6 @@
+@use '../base/variables' as *;
+@use '../base/mixins' as *;
+
+h1[data-aos] {
+  will-change: transform, opacity;
+}

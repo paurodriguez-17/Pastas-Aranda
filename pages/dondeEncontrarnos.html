@@ -8,6 +8,7 @@
     <!--link a bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
 
@@ -50,7 +51,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <article class="mb-4 text-center">
-                        <h1 class="titulo-ubicacion">Presencia en el NOA</h1>
+                        <h1 class="titulo-ubicacion" data-aos="fade-up">Presencia en el NOA</h1>
                         <p class="descripcion-ubicacion">
                             Nuestra casa central se encuentra en San Salvador de Jujuy, pero nuestros productos
                             llegan a miles de familias a través de una amplia red de distribución en seis provincias del
@@ -63,7 +64,8 @@
                         <p class="eslogan-ubicacion">
                             📍¡Buscá Pastas Aranda en tu provincia y descubrí el sabor de la tradición!
                         </p>
-                        <img src="../images/mapa.jpg" alt="Mapa de provincias con presencia de Pastas Aranda"class="img-fluid imagen-mapa mt-3">
+                        <img src="../images/mapa.jpg" alt="Mapa de provincias con presencia de Pastas Aranda"
+                            class="img-fluid imagen-mapa mt-3">
                     </article>
                 </div>
             </div>
@@ -80,7 +82,17 @@
     </footer>
     <!--link a bootstrap-->
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"crossorigin="anonymous"></script>
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 600,
+            once: true,
+            easing: 'ease-out'
+        });
+    </script>
 </body>
 
 </html>
